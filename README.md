@@ -1,5 +1,8 @@
-# requirejs/example-multipage
+# LeanBase Web Generator
 
+This includes BootStrap, RequireJS, JQuery. Can run 'grunt server' to watch changes live in browser
+
+Based on requirejs/example-multipage
 This project shows how to set up a multi-page requirejs-based project that has
 the following goals:
 

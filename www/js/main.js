@@ -20,6 +20,13 @@ requirejs.config({
             deps: [
                 'jquery'
             ]
+        },
+        backbone: {
+            deps: ['jquery', 'underscore'],
+            exports: 'Backbone'
+        },
+        underscore: {
+            exports: '_'
         }
     },
     packages: [
