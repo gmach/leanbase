@@ -9,8 +9,6 @@ define(['jquery'], function ($) {
         this.answersArray = answers;
     }
 
-    $("body").css("background-color", "red");
-
     var q1 = new Question('When reserved words are used as keys in object literals they must be ______?',
         [{'Prefixed with the @ operator' : false},
             {'This is not possible in javascript' : false},
